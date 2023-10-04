@@ -18,16 +18,16 @@ https://newsapi.org/
 Desenvolver critérios precisos de relevância para filtrar as notícias. Por exemplo, o time pode se concentrar em notícias que mencionem avanços em sequenciamento de DNA, terapias genéticas personalizadas ou descobertas relacionadas a doenças genéticas específicas.
 
 3. Cargas em Batches:
-Armazenar as notícias relevantes em um formato estruturado e facilmente acessível para consultas e análises posteriores. Essa carga deve acontecer 1 vez por hora. Se as notícias extraídas já tiverem sidos armazenadas na carga anterior, o processo deve ignorar e não armazenar as notícias novamente, os dados carregados não podem ficar duplicados.
+Armazenar as notícias relevantes em um formato estruturado e facilmente acessível para consultas e análises posteriores. Essa carga deve acontecer uma vez por hora. Se as notícias extraídas já tiverem sidos armazenadas na carga anterior, o processo deve ignorar e não armazenar as notícias novamente, os dados carregados não podem ficar duplicados.
 
 4. Dados transformados para consulta do público final
 A partir dos dados carregados, aplicar as seguintes transformações e armazenar o resultado final para a consulta do público final:
 
 * 4.1 - Quantidade de notícias por ano, mês e dia de publicação;
 * 4.2 - Quantidade de notícias por fonte e autor;
-* 4.3 - Quantidade de aparições de 3 palavras chaves por ano, mês e dia de publicação (as 3 palavras chaves serão as mesmas usadas para fazer os filtros de relevância do item 2 (2. Definir Critérios de Relevância)).
+* 4.3 - Quantidade de aparições de três palavras chaves por ano, mês e dia de publicação (as três palavras chaves serão as mesmas usadas para fazer os filtros de relevância do item 2).
 
-Atualizar os dados transformados 1 vez por dia.
+Atualizar os dados transformados uma vez por dia.
 
 Além das atividades principais, existe a necessidade de busca de dados por eventos em tempo real quando é necessário, para isso foi desenhado duas opções:
 
