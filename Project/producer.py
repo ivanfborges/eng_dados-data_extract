@@ -1,13 +1,4 @@
 # Databricks notebook source
-# MAGIC %md
-# MAGIC ### Exercícios
-# MAGIC
-# MAGIC 1 - Você faz parte do time de logística de sua empresa, para melhor acomodar todos os produtos o time de gerentes de sua área requisitou um relatório que deve ser atualizado em tempo real com todos os produtos cadastrados por categoria, afim de que possa haver um melhor planejamento dos espaços físicos nos estoques da companhia. O time de ERP fornece os dados de cadastros de produtos através do seguinte endpoint:
-# MAGIC
-# MAGIC - https://dummyjson.com/products
-# MAGIC
-# MAGIC Sendo assim você deverá criar um pipeline utilizando Kafka e Spark Streaming para coletar estes dados e colocá-los em um fluxo contínuo de abastecimento do relatório solicitado pela gestão de sua área
-# MAGIC
 
 # COMMAND ----------
 
